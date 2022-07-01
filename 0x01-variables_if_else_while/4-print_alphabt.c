@@ -7,15 +7,10 @@
  */
 int main(void)
 {
-	int n = 97, m = 123;
+	int n = 97, m = 122;
 
 	while (n <= m)
 	{
-		if (n == 123)
-		{
-			n = 65;
-			m = 90;
-		}
 		if (n == 101 || n == 113)
 		{
 			n++;
