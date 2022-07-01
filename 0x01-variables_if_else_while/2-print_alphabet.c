@@ -14,7 +14,7 @@ int main(void)
 		putchar(alpha_code);
 		alpha_code++;
 	}
-	putchar(13);
+	putchar(10);
 	return (0);
 }
 
