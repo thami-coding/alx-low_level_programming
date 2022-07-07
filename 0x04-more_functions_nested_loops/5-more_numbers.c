@@ -11,6 +11,7 @@ void more_numbers(void)
 
 	for (i = 0; i < 10; i++)
 	{
+		num = 0;
 		for (j = 0; j < 15; j++)
 		{
 			if (j > 9)
@@ -18,10 +19,9 @@ void more_numbers(void)
 				num = j / 10;
 				_putchar(num + '0');
 				num = j % 10;
-				_putchar(num + '0');
-				continue;
 			}
-			_putchar(j + '0');
+			_putchar(num + '0');
+			num++;
 		}
 		_putchar('\n');
 	}
