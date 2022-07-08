@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * fizz_buzz - prints the numbers from 1 to 100, 
+ * fizz_buzz - prints the numbers from 1 to 100
  *
  * Return: void
  */
@@ -25,12 +25,18 @@ void fizz_buzz(void)
 		}
 		else
 		{
-			printf("%d ",i);
+			printf("%d ", i);
 		}
 	}
 	printf("\n");
 }
 
+
+/**
+ * main - main Entry point
+ *
+ * Return: 0 on success
+ */
 int main(void)
 {
 	fizz_buzz();
