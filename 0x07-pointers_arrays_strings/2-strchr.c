@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * _strchr - function that locates a character in a string.
  *@s: string to locate character occurance in
@@ -19,5 +20,5 @@ char *_strchr(char *s, char c)
 		i++;
 	}
 
-	return (0);
+	return (NULL);
 }
